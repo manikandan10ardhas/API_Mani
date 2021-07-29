@@ -3,6 +3,6 @@ const router =  express.Router();
 
 const userDataRoutes =  require('./../routes/userDataRoutes');
 
-router.use('/user',userDataRoutes);
+router.use('/users',userDataRoutes);
 
 module.exports =  router;
